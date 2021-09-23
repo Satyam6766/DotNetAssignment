@@ -1,0 +1,12 @@
+Qus5)What is virtual method in c# ?
+Ans)Virtual method is a method that can be redefined in derived classes.
+ In C#, a virtual method has an implementation in a base class as well as in 
+derived class[Optional to redefine in derived class]. 
+
+It is used when a method's basic functionality is same but sometimes more functionality is needed in the derived class.
+ We create a virtual method in the base class using the virtual keyword and that method is overriden in the derived class
+ using the override keyword.
+ 
+When a method is declared as a virtual method in a base class then that method can be defined in a base class
+and it is optional for the derived class to override that method. 
+It is also an example for polymorphism.

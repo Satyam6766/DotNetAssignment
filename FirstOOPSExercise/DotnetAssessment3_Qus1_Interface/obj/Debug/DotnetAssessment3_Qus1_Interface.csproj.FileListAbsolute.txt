@@ -1,0 +1,7 @@
+C:\Users\Satyam Singh\source\repos\DotnetAssessment3_23-sep-2021\DotnetAssessment3_Qus1_Interface\bin\Debug\DotnetAssessment3_Qus1_Interface.exe.config
+C:\Users\Satyam Singh\source\repos\DotnetAssessment3_23-sep-2021\DotnetAssessment3_Qus1_Interface\bin\Debug\DotnetAssessment3_Qus1_Interface.exe
+C:\Users\Satyam Singh\source\repos\DotnetAssessment3_23-sep-2021\DotnetAssessment3_Qus1_Interface\bin\Debug\DotnetAssessment3_Qus1_Interface.pdb
+C:\Users\Satyam Singh\source\repos\DotnetAssessment3_23-sep-2021\DotnetAssessment3_Qus1_Interface\obj\Debug\DotnetAssessment3_Qus1_Interface.csproj.AssemblyReference.cache
+C:\Users\Satyam Singh\source\repos\DotnetAssessment3_23-sep-2021\DotnetAssessment3_Qus1_Interface\obj\Debug\DotnetAssessment3_Qus1_Interface.csproj.CoreCompileInputs.cache
+C:\Users\Satyam Singh\source\repos\DotnetAssessment3_23-sep-2021\DotnetAssessment3_Qus1_Interface\obj\Debug\DotnetAssessment3_Qus1_Interface.exe
+C:\Users\Satyam Singh\source\repos\DotnetAssessment3_23-sep-2021\DotnetAssessment3_Qus1_Interface\obj\Debug\DotnetAssessment3_Qus1_Interface.pdb

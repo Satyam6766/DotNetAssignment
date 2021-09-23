@@ -1,0 +1,64 @@
+Qus2)What is method Overloading and method overriding?
+Ans)Method overloading and Method Overriding both are the part of Ploymorphism.
+The word Polymorphism means many forms.Its the main concept of OOP's.
+
+Method Overloading:
+ It has also known as  “Compile Time Polymorphism”
+ or “Static Polymorphism” and sometimes it is called “Early Binding”.
+
+Method Overloading means creating multiple methods in a class with same
+ names but different signatures (number of Parameters and types of Parameters). 
+It permits a class, struct,or interface to declare multiple methods with the 
+same name with unique signatures.
+
+
+Method Overriding:
+It has also known as “Run Time Polymorphism” or “Dynamic Polymorphism” 
+and sometime it is called “Late Binding”. 
+Method Overriding means having two methods with same name and same 
+signatures [parameters], one should be in the base class and other method 
+should be in a derived class [child class]. 
+You can override the functionality of a base class method to create a
+ same name method with same signature in a derived class.
+ 
+
+ class Program
+    {
+        public int Area(int s) //Here we calculate Area of Square 
+        {
+            return (s*s);
+        }
+        public int Area(float s) //Here we calculate Area of Square
+        {
+            return (Convert.ToInt32(s*s));
+        }
+        public int Area(int l, int b)//Here we calculate Area of Rectangle
+        {
+            return (l*b);
+        }
+        public int Area(int l, int b,int h)//Here we calculate Area of 3-D figure
+        {
+            return (l * b*h);
+        }
+        public float Area(float l, float b)
+        {
+            return (l*b);
+        }
+        public float Area(float l, float b, float h)
+        {
+            return (l * b * h);
+        }
+       
+        static void Main(string[] args)
+        {
+            Program obj = new Program();
+            Console.WriteLine("Area for square having side dimension in int:" + obj.Area(3));
+            Console.WriteLine("Area for square having side dimension in float:" + obj.Area(3.5f));
+            Console.WriteLine("Area for rectange  having sides dimension[length and breadth] in int:" + obj.Area(3,4));
+            Console.WriteLine("Area for rectange  having sides dimension[length and breadth] in float:" + obj.Area(3.4f, 4.8f));
+            Console.WriteLine("Area for 3-D  having sides dimension[length,breadth and height] in int:" + obj.Area(3, 4),7);
+            Console.WriteLine("Area for 3-D  having sides dimension[length,breadth and height] in float:" + obj.Area(3.4f, 4.8f,2.4f));
+            Console.ReadLine();
+            //Here we have called multiple method having same name "AREA" but the type and number of argument passed in the methods are different.
+        }
+    }

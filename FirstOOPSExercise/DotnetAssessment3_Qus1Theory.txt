@@ -1,0 +1,25 @@
+Qus1)What is the difference between abstract class and interface ?
+Ans)
+Abstract class:
+It is must to have one abstract method inside abstract class,and then any number of abstract and non-abstract method 
+can  be declared[in case of some more abstract method] and defined[in case of non abstract method].
+
+1>Multiple inheritance is not possible to  achieved through classes{Abstract}.
+2>Abstract classes contains both declaration and definition part.
+3>Abstract classes contain constructor.	
+4>Abstract classes can contain static members.
+5>Abstract classes can contain different types of access modifiers like public, private, protected etc.	
+6>A class can only inherit one abstract class.
+
+
+Interface:
+Here in interface we can just declare methods,not possible to define them.
+Like classes,here it is not mendatory to put abstract keyword before methods.
+It is because bydefault all methods declared under interface are abstract.
+
+1>Multiple inheritance is achieved by interface.
+2>Interface contains only a declaration part.
+3>Interface does not contain constructor.
+4>Interface does not contain static members
+5>Interface only contains public access modifier because everything in the interface is public.
+6>A class can inherit multiple interface.

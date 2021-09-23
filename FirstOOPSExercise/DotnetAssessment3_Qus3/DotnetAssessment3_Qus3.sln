@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetAssessment3_Qus3", "DotnetAssessment3_Qus3.csproj", "{ECE1AA6D-D997-4490-8775-46D485F8274A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECE1AA6D-D997-4490-8775-46D485F8274A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECE1AA6D-D997-4490-8775-46D485F8274A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECE1AA6D-D997-4490-8775-46D485F8274A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECE1AA6D-D997-4490-8775-46D485F8274A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3EF2C5CD-DFBD-4451-8723-F26426AB5176}
+	EndGlobalSection
+EndGlobal

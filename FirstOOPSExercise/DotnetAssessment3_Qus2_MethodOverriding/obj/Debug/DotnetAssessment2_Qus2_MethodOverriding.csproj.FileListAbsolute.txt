@@ -1,0 +1,6 @@
+C:\Users\Satyam Singh\source\repos\DotnetAssessment2\DotnetAssessment2_Qus2_MethodOverriding\bin\Debug\DotnetAssessment2_Qus2_MethodOverriding.exe.config
+C:\Users\Satyam Singh\source\repos\DotnetAssessment2\DotnetAssessment2_Qus2_MethodOverriding\bin\Debug\DotnetAssessment2_Qus2_MethodOverriding.exe
+C:\Users\Satyam Singh\source\repos\DotnetAssessment2\DotnetAssessment2_Qus2_MethodOverriding\bin\Debug\DotnetAssessment2_Qus2_MethodOverriding.pdb
+C:\Users\Satyam Singh\source\repos\DotnetAssessment2\DotnetAssessment2_Qus2_MethodOverriding\obj\Debug\DotnetAssessment2_Qus2_MethodOverriding.csproj.CoreCompileInputs.cache
+C:\Users\Satyam Singh\source\repos\DotnetAssessment2\DotnetAssessment2_Qus2_MethodOverriding\obj\Debug\DotnetAssessment2_Qus2_MethodOverriding.exe
+C:\Users\Satyam Singh\source\repos\DotnetAssessment2\DotnetAssessment2_Qus2_MethodOverriding\obj\Debug\DotnetAssessment2_Qus2_MethodOverriding.pdb

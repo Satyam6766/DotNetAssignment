@@ -1,0 +1,7 @@
+C:\Users\Satyam Singh\source\repos\DotnetAssessment3_23-sep-2021\DotnetAssessment3_Qus8_Encapsulation\bin\Debug\DotnetAssessment3_Qus8_Encapsulation.exe.config
+C:\Users\Satyam Singh\source\repos\DotnetAssessment3_23-sep-2021\DotnetAssessment3_Qus8_Encapsulation\bin\Debug\DotnetAssessment3_Qus8_Encapsulation.exe
+C:\Users\Satyam Singh\source\repos\DotnetAssessment3_23-sep-2021\DotnetAssessment3_Qus8_Encapsulation\bin\Debug\DotnetAssessment3_Qus8_Encapsulation.pdb
+C:\Users\Satyam Singh\source\repos\DotnetAssessment3_23-sep-2021\DotnetAssessment3_Qus8_Encapsulation\obj\Debug\DotnetAssessment3_Qus8_Encapsulation.csproj.AssemblyReference.cache
+C:\Users\Satyam Singh\source\repos\DotnetAssessment3_23-sep-2021\DotnetAssessment3_Qus8_Encapsulation\obj\Debug\DotnetAssessment3_Qus8_Encapsulation.csproj.CoreCompileInputs.cache
+C:\Users\Satyam Singh\source\repos\DotnetAssessment3_23-sep-2021\DotnetAssessment3_Qus8_Encapsulation\obj\Debug\DotnetAssessment3_Qus8_Encapsulation.exe
+C:\Users\Satyam Singh\source\repos\DotnetAssessment3_23-sep-2021\DotnetAssessment3_Qus8_Encapsulation\obj\Debug\DotnetAssessment3_Qus8_Encapsulation.pdb

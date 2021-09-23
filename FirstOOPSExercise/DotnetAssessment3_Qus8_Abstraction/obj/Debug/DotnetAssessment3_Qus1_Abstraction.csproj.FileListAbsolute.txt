@@ -1,0 +1,7 @@
+C:\Users\Satyam Singh\source\repos\DotnetAssessment3_23-sep-2021\DotnetAssessment3_Qus1_Abstraction\bin\Debug\DotnetAssessment3_Qus1_Abstraction.exe.config
+C:\Users\Satyam Singh\source\repos\DotnetAssessment3_23-sep-2021\DotnetAssessment3_Qus1_Abstraction\bin\Debug\DotnetAssessment3_Qus1_Abstraction.exe
+C:\Users\Satyam Singh\source\repos\DotnetAssessment3_23-sep-2021\DotnetAssessment3_Qus1_Abstraction\bin\Debug\DotnetAssessment3_Qus1_Abstraction.pdb
+C:\Users\Satyam Singh\source\repos\DotnetAssessment3_23-sep-2021\DotnetAssessment3_Qus1_Abstraction\obj\Debug\DotnetAssessment3_Qus1_Abstraction.csproj.AssemblyReference.cache
+C:\Users\Satyam Singh\source\repos\DotnetAssessment3_23-sep-2021\DotnetAssessment3_Qus1_Abstraction\obj\Debug\DotnetAssessment3_Qus1_Abstraction.csproj.CoreCompileInputs.cache
+C:\Users\Satyam Singh\source\repos\DotnetAssessment3_23-sep-2021\DotnetAssessment3_Qus1_Abstraction\obj\Debug\DotnetAssessment3_Qus1_Abstraction.exe
+C:\Users\Satyam Singh\source\repos\DotnetAssessment3_23-sep-2021\DotnetAssessment3_Qus1_Abstraction\obj\Debug\DotnetAssessment3_Qus1_Abstraction.pdb

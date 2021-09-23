@@ -1,0 +1,54 @@
+Qus5)How to preventing Derived class from overriding virtual members?
+Ans)
+Type1
+If none of its members are marked virtual, derived classes will not be able to overrides its members. 
+
+                    public class Box
+                    { 
+	                public string Name {get;set;}  
+	                public int Length{get;set;}  
+                        public int Breadth{get;set;}     
+                	
+                        public void Area() {
+                        Console.WriteLine("Area of Box will be:"+(Length*Breadth));
+                        }
+                     } 
+Here Method is Not marked as Virtual so cannot be overriden.
+---------------------------///////////////////----------------------------
+
+Type2
+If you want to prevent it from being inherited, you can mark the class as sealed.
+              public Sealed class Box                //Class marked as sealed
+                    { 
+	                public string Name {get;set;}  
+	                public int Length{get;set;}  
+                        public int Breadth{get;set;}     
+                	
+                        public void Area() {
+                        Console.WriteLine("Area of Box will be:"+(Length*Breadth));
+                        }
+                     } 
+Here class itself is marked as sealed so none of its method can be overriden.
+
+---------------------------///////////////////----------------------------
+Type3
+If you want to prevent a method you have overridden from being further overridden in sub classes,
+ you can mark the method sealed like.
+
+        public class Bird 
+        { 
+	       public string Name {get;} 
+     
+               public int Age {get;} 
+	 
+	
+               public virtual void Chirp() {}  //CAN BE OVERRIDDEN 
+         } 
+ 
+       //Anyone who inherits from Indian_peafowl cannot override chirp method
+       public class Indian_peafowl : Bird 
+       { 
+       public sealed override void Chirp() {
+       Performing some task here.
+       } 
+       } 
