@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Connection-architecture-Ans4", "Connection-architecture-Ans4.csproj", "{D13DEE2F-6D00-4860-BE17-1326E8B0C9BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D13DEE2F-6D00-4860-BE17-1326E8B0C9BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D13DEE2F-6D00-4860-BE17-1326E8B0C9BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D13DEE2F-6D00-4860-BE17-1326E8B0C9BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D13DEE2F-6D00-4860-BE17-1326E8B0C9BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {324373B2-1988-43EC-9EF5-0150889FF7A2}
+	EndGlobalSection
+EndGlobal

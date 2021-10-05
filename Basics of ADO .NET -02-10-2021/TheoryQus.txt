@@ -1,0 +1,44 @@
+Qus1)Describe all the data provider objects with sample code?
+Ans)Data provider is used to connect to the database, execute commands and retrieve the record. 
+    It is lightweight component with better performance. It also allows us to place the data into DataSet
+    to use it further in our application.
+
+
+Following are the core object of Data Providers:
+Object	        Description
+--------        -----------
+Connection	It is used to establish a connection to a specific data source.
+Command	        It is used to execute queries to perform database operations.
+DataReader	DataReader is used to read the data from the database and it is a read and forward only 
+                connection oriented architecture during fetch the data from database. 
+                DataReader will fetch the data very fast when compared with dataset .
+                The DbDataReader is a base class for all DataReader objects.
+DataAdapter	It populates a DataSet and resolves updates with the data source. The base class for all DataAdapter objects is the DbDataAdapter class.
+
+The .NET Framework Data Provider for SQL Server classes is located in the System.Data.SqlClient namespace.
+
+ NAMESPACE:   using System.Data.SqlClient;    
+
+This namespace contains the following important classes.
+
+Class	        Description
+SqlConnection	It is used to create SQL Server connection. This class cannot be inherited.
+SqlCommand	It is used to execute database queries. This class cannot be inherited.
+SqlDataAdapter	It represents a set of data commands and a database connection that are used to fill the DataSet. This class cannot be inherited.
+SqlDataReader	It is used to read rows from a SQL Server database. This class cannot be inherited.
+SqlException	This class is used to throw SQL exceptions. It throws an exception when an error is occurred. This class cannot be inherited.
+
+Qus4)What are the two architecture in ado .net for connection create a connection, implement both architecture 
+     and show the difference?
+Ans)In C#, we work in two different ways with database connectivity. As you know when we create software or website 
+    or any other application which is connected to the database we need to make connection to the database to get data. 
+    Here you can get data in two different ways.
+
+    Either it can be connected architecture where you go and connect to the database and get data or disconnected architecture
+    where you connect to the database first time and get all data in an object and use it if required. 
+    You can perform any action like insert, update, and search on this.
+
+    You can use two C# objects to achieve this,
+    first one is DataSet [DISCONNECTED ARCHITECTURE]
+    and other one is DataReader.[CONNECTION ORIENTED ARCHITECTURE]
+   (For Code refer to Project mention on root path for same folder.)
