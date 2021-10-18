@@ -1,0 +1,42 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="AspNetAns8.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>c# corner</title>
+    <link href="~/my.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <header id="header">
+        <h1>Master Page</h1>
+    </header>
+    <nav id="nav">
+        <ul>
+            <li><a href="/Home.aspx">Home</a></li>
+            <li><a href="/About.aspx">About</a></li>
+            <li><a href="/EmployeeRegisteration.aspx">Employee Registeration</a></li>
+            <li><a href="/Contact.aspx">Contact</a></li>
+        </ul>
+    </nav>
+    <aside id="side">
+        <h1>news</h1>
+        <a href="#">
+            <p>creating html website</p>
+        </a>
+        <a href="https://www.c-sharpcorner.com/article/how-to-create-master-page-in-asp-net/">
+            <p>Learn MasterPage in dotnet </p>
+        </a>
+        <a href="https://www.tutorialsteacher.com/csharp">learn c# programming</a>
+    </aside>
+ <div id="con">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    <footer id="footer">
+        This is footer section
+    </footer>
+</body>
+</html>
