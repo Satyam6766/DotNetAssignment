@@ -1,7 +1,0 @@
-D:\DotNetAssignment\Introduction to ASP.NET-30-sep-2021\AspNetAns10\bin\Debug\AspNetAns10.exe.config
-D:\DotNetAssignment\Introduction to ASP.NET-30-sep-2021\AspNetAns10\bin\Debug\AspNetAns10.exe
-D:\DotNetAssignment\Introduction to ASP.NET-30-sep-2021\AspNetAns10\bin\Debug\AspNetAns10.pdb
-D:\DotNetAssignment\Introduction to ASP.NET-30-sep-2021\AspNetAns10\obj\Debug\AspNetAns10.csproj.AssemblyReference.cache
-D:\DotNetAssignment\Introduction to ASP.NET-30-sep-2021\AspNetAns10\obj\Debug\AspNetAns10.csproj.CoreCompileInputs.cache
-D:\DotNetAssignment\Introduction to ASP.NET-30-sep-2021\AspNetAns10\obj\Debug\AspNetAns10.exe
-D:\DotNetAssignment\Introduction to ASP.NET-30-sep-2021\AspNetAns10\obj\Debug\AspNetAns10.pdb

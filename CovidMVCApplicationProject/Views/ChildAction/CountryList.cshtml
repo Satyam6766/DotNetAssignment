@@ -1,0 +1,25 @@
+﻿@model List<string>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>CountryList</title>
+</head>
+<body>
+    <div> 
+        <ol>
+            @foreach(var country in Model)
+            {
+                <li>
+                    @country
+                </li>
+            }
+        </ol>
+    </div>
+</body>
+</html>

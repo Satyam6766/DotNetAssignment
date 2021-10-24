@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<div class="container">
+
+    @Html.Action("CountryList", new
+    {
+        countryName = new List<string>(){
+    "UK","CHINA","JAPAN","SRILANKA","INDIA","GERMANY","FRANCE"
+    }
+    })
+</div>
+<div>
+    @{
+        Html.RenderAction("CountryList", new
+        {
+            countryName = new List<string>() {
+        "UK","CHINA","JAPAN","SRILANKA","INDIA","GERMANY","FRANCE"
+        }
+        });
+    }
+</div>
+
