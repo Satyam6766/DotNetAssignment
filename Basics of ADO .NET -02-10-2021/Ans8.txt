@@ -1,0 +1,44 @@
+Qus9)What is the difference between DataReader, DataAdapter, and DataSet?
+Ans)DataReader, DataSet, and DataAdapter are major components of ADO.NET
+  
+ DataReader
+ DataReader is used to read the data from the database and it is a read and forward only connection oriented architecture
+ during fetch the data from database. DataReader will fetch the data very fast when compared with dataset. 
+ Generally, we will use ExecuteReader object to bind data to datareader.
+
+ SAMPLE CODE:
+ protected void BindGrid() {
+    using(SqlConnection conn = new SqlConnection("ConnectionString")) {
+        con.Open();
+        SqlCommand cmd = new SqlCommand("Select UserName, First Name,LastName,Location FROM Users", conn);
+        SqlDataReader sdr = cmd.ExecuteReader();
+        gvUserInfo.DataSource = sdr;
+        gvUserInfo.DataBind();
+        conn.Close();
+    }
+}
+
+  DataSet
+  DataSet is a disconnected orient architecture that means there is no need of active connections during work with 
+  datasets and it is a collection of DataTables and relations between tables. It is used to hold multiple tables with data.
+  You can select data form tables, create views based on table and ask child rows over relations. 
+  Also DataSet provides you with rich features like saving data as XML and loading XML data.
+
+
+
+  DataAdapter
+  DataAdapter will acts as a Bridge between DataSet and database. This dataadapter object is used to read the data
+  from database and bind that data to dataset. Dataadapter is a disconnected oriented architecture. 
+  
+ SAMPLE CODE:Will give idea about both DataAdapter and DataSet
+ 
+ protected void BindGridview() {
+    SqlConnection conn = new SqlConnection("Data Source=abc;Integrated Security=true;Initial Catalog=Test");
+    conn.Open();
+    SqlCommand cmd = new SqlCommand("Select UserName, First Name,LastName,Location FROM Users", conn);
+    SqlDataAdapter sda = new SqlDataAdapter(cmd);
+    DataSet ds = new DataSet();
+    sda.Fill(ds);
+    gvUserInfo.DataSource = ds;
+    gvUserInfo.DataBind();
+}
