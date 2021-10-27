@@ -1,0 +1,6 @@
+D:\DotNetAssignment\UnitTesting\MyUnitTestingExercise\bin\Debug\MyUnitTestingExercise.dll
+D:\DotNetAssignment\UnitTesting\MyUnitTestingExercise\bin\Debug\MyUnitTestingExercise.pdb
+D:\DotNetAssignment\UnitTesting\MyUnitTestingExercise\obj\Debug\MyUnitTestingExercise.csproj.AssemblyReference.cache
+D:\DotNetAssignment\UnitTesting\MyUnitTestingExercise\obj\Debug\MyUnitTestingExercise.csproj.CoreCompileInputs.cache
+D:\DotNetAssignment\UnitTesting\MyUnitTestingExercise\obj\Debug\MyUnitTestingExercise.dll
+D:\DotNetAssignment\UnitTesting\MyUnitTestingExercise\obj\Debug\MyUnitTestingExercise.pdb

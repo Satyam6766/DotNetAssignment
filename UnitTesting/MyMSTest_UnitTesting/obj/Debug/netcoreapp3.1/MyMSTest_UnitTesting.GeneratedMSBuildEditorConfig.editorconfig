@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = MyMSTest_UnitTesting
+build_property.ProjectDir = D:\DotNetAssignment\UnitTesting\MyMSTest_UnitTesting\
